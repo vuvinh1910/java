@@ -22,7 +22,7 @@ public class StringExample {
       // Xóa phần từ chỉ số 5 đến 10 (bao gồm cả chỉ số 5, nhưng không bao gồm chỉ số 10)
       String result = removeSubstring(str, 5, 10);
       
-      // Tìm vị trí của một ký tự hoặc chuỗi con
+      // Tìm vị trí của một ký tự hoặc chuỗi con xuat hien dau tien
       int index = str.indexOf("tu can tim");
       // Thay thế ký tự hoặc chuỗi con
       String replaced = str.replace("tu can thay", "tu thay");
