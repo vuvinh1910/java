@@ -1,5 +1,5 @@
 int[] myArray; //Khai báo mảng
-myArray = new int[5]; // Khởi tạo mảng với kích thước cố định
+int[] myArray = new int[5]; // Khởi tạo mảng với kích thước cố định
 int[] myArray = {1, 2, 3, 4, 5}; // Khởi tạo mảng với các giá trị cụ thể
 
 // duyet qua mang:
