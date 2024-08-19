@@ -1,3 +1,5 @@
+import java.util.Arrays; // thu vien
+
 int[] numbers = {5, 2, 8, 1, 3};
 // Sắp xếp mảng theo thứ tự tăng dần
 Arrays.sort(numbers);
