@@ -7,6 +7,9 @@ public class StringExample {
       
       // Lấy độ dài của chuỗi
       int length = str.length();
+
+      // Truy cập ký tự tại chỉ số nhất định
+      char ch = str.charAt(7);
       
       // so sanh chuoi
       str1.equals(str2)
