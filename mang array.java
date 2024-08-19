@@ -2,6 +2,9 @@ int[] myArray; //Khai báo mảng
 int[] myArray = new int[5]; // Khởi tạo mảng với kích thước cố định
 int[] myArray = {1, 2, 3, 4, 5}; // Khởi tạo mảng với các giá trị cụ thể
 
+// do dai cua mang
+int l = array.length;
+
 // duyet qua mang:
 for (int i = 0; i < myArray.length; i++) {
     System.out.println("Phần tử thứ " + i + " là: " + myArray[i]);
