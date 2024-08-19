@@ -2,6 +2,7 @@ public class Helloworld{
   public static void main (String[] args){
     System.out.println("line1");
     System.out.println("line2");
+    System.out.print("noline"); // print se khong co xuong dong
   }
 }
 // chú ý : tên class chính phải trùng với tên file.java
