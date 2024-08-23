@@ -3,6 +3,8 @@ class Entry {
 	public static void main(String[] args) {
 		System.out.println(x);
 		int x1 = 10; // đây là khai báo không phải truy xuất.
+		Entry entry = new Entry(); // hoặc có thể khai báo đối tượng mới, sau đó tham chiếu đến x
+		entry.x = 10		   // x đây là của đối tượng entry mới khai báo
 	}
 }
 // phương thức static sẽ chỉ có thể truy xuất được tới biến static, do đó kết quả sẽ là Lỗi biên dịch 
