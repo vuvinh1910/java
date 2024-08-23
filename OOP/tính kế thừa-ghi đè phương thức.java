@@ -5,8 +5,9 @@ class Animal {
 }
 
 class Dog extends Animal {
-    // phương thức ghi đè phải cùng tên,cùng kiểu,cùng tham số, lớp kế thừa có phạm vi truy cập bằng hoặc rộng hơn lớp cha vd: protected -> public
-    void makeSound() {
+    // phương thức ghi đè phải cùng tên,cùng kiểu,cùng tham số, lớp kế thừa có phạm vi truy cập bằng hoặc rộng hơn lớp cha 
+    // vd: private -> default -> protected -> public
+    protected void makeSound() {
         System.out.println("Dog barks");
     }
 }
