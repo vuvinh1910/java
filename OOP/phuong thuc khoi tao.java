@@ -4,7 +4,7 @@
 // Constructor có đặc điểm là không được định nghĩa kiểu trả về và có tên trùng với tên lớp. Xem ví dụ sau để hiểu rõ hơn:
 
 class Student {
-	// Phương thức khởi tạo của lớp Student
+	// Phương thức khởi tạo của lớp Student , dùng public còn nếu dùng private sẽ sai
 	public Student() {
 		System.out.println("Constructor Called");
 	}
