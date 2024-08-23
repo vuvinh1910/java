@@ -15,3 +15,17 @@ public class Entry {
 		Student s = new Student();
 	}
 }
+
+// Nếu một lớp không được khai báo constructor thì chương trình sẽ tự động tạo ra một constructor mặc định. Ví dụ nếu bạn khai báo lớp Student giống như sau:
+class Student {
+	String name;
+	int age;
+}
+// Thì chương trình sẽ tự động thêm vào một constructor mặc định (constructor rỗng) bên trong lớp Student:
+class Student {
+	String name;
+	int age;
+
+	public Student() {
+	}
+}
