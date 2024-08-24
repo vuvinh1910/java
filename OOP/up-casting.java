@@ -13,6 +13,10 @@ class Dog extends Animal {
         this.breed = breed;
     }
 
+    public void makeSound() {
+        System.out.println("Dog makes a sound"); // sẽ chuyển dữ liệu từ hàm con về hàm cha từ dog về animal
+    }
+    
     public void fetch() {
         System.out.println("Dog fetches the ball");
     }
@@ -28,7 +32,7 @@ public class Main {
         Animal dog_up = new dog();
 
         // Gọi phương thức của lớp cha
-        animal.makeSound(); // In ra: "Animal makes a sound"
+        animal.makeSound(); // In ra: "Dog makes a sound"
 
         // Không thể gọi phương thức lớp con
         // animal.fetch(); // Lỗi biên dịch: phương thức fetch() không tồn tại trong lớp Animal
