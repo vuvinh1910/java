@@ -14,6 +14,10 @@ class Student {
 	public boolean equals(Object obj) {
 		return this.id == ((Student) obj).id;
 	}
+	// hoặc có thể dùng :
+	public boolean equals(Student obj) {
+		return this.id == obj.id;
+	}
 }
 
 public class Entry {
