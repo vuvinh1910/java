@@ -24,7 +24,7 @@ class Dog extends Animal {
 public class Main {
     public static void main(String[] args) {
         Animal animal = new Dog();
-        Dog dog = (Dog)animal;
+        Dog dog = (Dog)animal; // down casting
         dog.fetch();
     }
 }
