@@ -5,6 +5,9 @@ List<String> list = new ArrayList<String>();
 List<String> list = new ArrayList<>(); // Ở đây, bạn có thể bỏ qua phần String bên trong dấu ngoặc nhọn của ArrayList,
 //và trình biên dịch sẽ tự động suy ra kiểu dữ liệu dựa trên kiểu của biến list ở phía bên trái
 
+// truy cập phần tử thứ i trong list:
+String temp = list.get(i);
+
 // thêm phần tử vào list:
 list.add("Apple"); // Thêm vào cuối danh sách
 list.add(0, "Orange"); // Thêm vào đầu danh sách
