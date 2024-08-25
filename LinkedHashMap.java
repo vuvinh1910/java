@@ -1,4 +1,4 @@
-// giống hashmap nhưng nó khác ở chỗ vẫn giữ nguyên thứ tự các phần tử mà nó thêm vào.
+// trong LinkedHashMap vẫn giữ nguyên thứ tự các phần tử mà nó thêm vào.
 
 public class CountElements {
     public static void main(String[] args) {
