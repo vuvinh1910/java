@@ -29,7 +29,7 @@ public class StringExample {
 
       // Cắt chuỗi từ chỉ số 7 đến cuối
       String substr1 = str.substring(7);
-      // Cắt chuỗi từ chỉ số 0 đến 5
+      // Cắt chuỗi từ chỉ số 0 đến 4 ko bao gồm 5
       String substr2 = str.substring(0, 5);
 
       // Kiểm tra xem chuỗi có chứa một chuỗi con không
