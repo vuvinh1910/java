@@ -16,8 +16,8 @@ public class MapWithIntegerExample {
         // ktra kích thước map:
         int size = map.size();
         // ktra sự tồn tại của key và value:
-        boolean hasCherry = map.containsKey("Cherry");
-        boolean hasValue = map.containsValue(3);
+        boolean hasCherry = map.containsKey("vinh");
+        boolean hasValue = map.containsValue(10);
 
     }
 }
