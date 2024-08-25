@@ -3,7 +3,7 @@ import java.util.*;
 public class MapWithIntegerExample {
     public static void main(String[] args) {
         // Khởi tạo HashMap với String làm key và Integer làm value.
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>(); // TreeMap,LinkedHashMap
         // Trong HashMap Các phần tử sắp xếp ngẫu nhiên, thay đổi cả lúc thêm và xóa.
 
         // Thêm Cặp Key-Value, dùng put().
