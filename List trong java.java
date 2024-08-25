@@ -14,6 +14,13 @@ list.add(0, "Orange"); // Thêm vào đầu danh sách
 list.add(2, "C"); // Thêm phần tử "C" vào vị trí chỉ số 2
 
 
+// Lỗi cú pháp khi gán giá trị mới cho một phần tử của ArrayList: 
+// Trong Java, bạn không thể gán giá trị mới cho một phần tử của ArrayList bằng cách sử dụng cú pháp
+p.get(index) = newValue; 
+// Thay vào đó, bạn phải sử dụng phương thức: 
+set(vitri, value);
+
+
 String element = list.get(0); // Lấy phần tử đầu tiên
 list.remove(1); // Xóa phần tử tại vị trí thứ 1
 int size = list.size(); // Kích thước danh sách
