@@ -1,3 +1,5 @@
+List<String> list; // khai báo đơn.
+
 List<String> list = new ArrayList<String>();
 
 List<String> list = new ArrayList<>(); // Ở đây, bạn có thể bỏ qua phần String bên trong dấu ngoặc nhọn của ArrayList,
