@@ -8,6 +8,8 @@ List<String> list = new ArrayList<>(); // Ở đây, bạn có thể bỏ qua ph
 // truy cập phần tử thứ i trong list:
 String temp = list.get(i);
 
+Collections.max(lst); // max trong list
+
 // thêm phần tử vào list:
 list.add("Apple"); // Thêm vào cuối danh sách
 list.add(0, "Orange"); // Thêm vào đầu danh sách
