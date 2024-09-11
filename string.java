@@ -26,6 +26,8 @@ public class StringExample {
       int index = str.indexOf("tu can tim");
       // Thay thế ký tự hoặc chuỗi con
       String replaced = str.replace("tu can thay", "tu thay");
+      // thay thế tất cả trường hợp
+      String replaced = str.replaceAll("tu can thay", "tu thay");
 
       // Cắt chuỗi từ chỉ số 7 đến cuối
       String substr1 = str.substring(7);
