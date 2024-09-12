@@ -13,6 +13,10 @@ System.out.println("Hiệu: " + difference);
 BigInteger product = a.multiply(b);
 System.out.println("Tích: " + product);
 
+// Lấy giá trị tuyệt đối
+BigInteger absPositive = a.abs();
+BigInteger absNegative = b.abs();
+
 // Chia
 BigInteger quotient = a.divide(b);
 System.out.println("Thương: " + quotient);
