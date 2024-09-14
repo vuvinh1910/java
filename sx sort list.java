@@ -12,7 +12,8 @@ public class SortListExample {
         
         // Sắp xếp danh sách theo thứ tự tăng dần
         Collections.sort(list);
-        
-        System.out.println("Danh sách sau khi sắp xếp: " + list);
+         // Sắp xếp giảm dần
+        Collections.sort(numbers, Collections.reverseOrder());
+        System.out.println(numbers); // Output: [9, 5, 2, 1]
     }
 }
