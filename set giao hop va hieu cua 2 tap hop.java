@@ -16,14 +16,17 @@ public class Quiz {
             B.add(sc.nextInt());
         }
 
+        Set<String> union = new HashSet<>(A);
+        union.addAll(B);      // Thêm tất cả các phần tử từ set2 vào set1
+
         Set<Integer> intersection = new TreeSet<>(A);
-        intersection.retainAll(B);
+        intersection.retainAll(B);     // Giữ lại các phần tử xuất hiện trong cả hai tập hợp
 
         Set<Integer> diff_A_B = new TreeSet<>(A);
-        diff_A_B.removeAll(B);
+        diff_A_B.removeAll(B);     // A-B
 
         Set<Integer> diff_B_A = new TreeSet<>(B);
-        diff_B_A.removeAll(A);
+        diff_B_A.removeAll(A);     // B-A
 
         printSet(intersection);
 
