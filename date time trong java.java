@@ -34,6 +34,17 @@ public class Main {
             Instant ins2 = date3.toInstant();
             Duration KhoangThoiGian2 = Duration.between(ins1, ins2);
             System.out.println(KhoangThoiGian2.toMinutes()); // có thể dùng method to+minutes,hours,seconds,Days để biến thành giờ, phút, giây, ngày...
+
+
+            // so sánh 2 biến Date
+            int comparison = date1.compareTo(date2);
+            if (comparison < 0) {
+                System.out.println("date1 is before date2");
+            } else if (comparison > 0) {
+                System.out.println("date1 is after date2");
+            } else {
+                System.out.println("date1 is equal to date2");
+            }
         } catch (ParseException e) {
             // Xử lý ngoại lệ nếu không thể phân tích chuỗi thời gian
             System.out.println("Định dạng thời gian không hợp lệ.");
