@@ -26,7 +26,7 @@ public class Main {
             String In3 = temp3.format(date3);
             System.out.println(In3); // in ra 02/02/2222 15:00:00
 
-            // khoảng cách thời gian giữa 2 biến Date (tính theo s ):
+            // khoảng cách thời gian giữa 2 biến Date (tính theo ms ):
             long KhoangThoiGian = Math.abs(date3.getTime() - date.getTime());
             System.out.println(KhoangThoiGian);
             // hoặc tính khoảng tgian bằng between trong Duration = cách chuyển Date về Instant.
