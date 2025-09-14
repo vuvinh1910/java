@@ -38,10 +38,21 @@ public class StringExample {
       boolean contains = str.contains("chuoi con");
 
       // Chia chuỗi thành mảng dựa trên ký tự phân cách
+        // [cac ky tu phan cach]
+        // dau + la cac ky tu phan cach co the lap lai nhieu lan lien tiep
       String[] parts = str.split(",");
 
         String data = "requestId;1,2,3,4,5";
         String[] parts = data.split("[,;]");  // Tách cả dấu ',' và ';'
+
+        String data = "A;;B;C;;;D";
+        String[] parts = data.split(";+");
+        System.out.println(Arrays.toString(parts)); //[A, B, C, D]
+
+        String data = "A, B;;C   D";
+        String[] parts = data.split("[,;\\s]+");
+        System.out.println(Arrays.toString(parts)); //[A, B, C, D]
+
 
       // Nối hai chuỗi
       String result = str1.concat(", ").concat(str2); // noi bang ", "
