@@ -40,6 +40,9 @@ public class StringExample {
       // Chia chuỗi thành mảng dựa trên ký tự phân cách
       String[] parts = str.split(",");
 
+        String data = "requestId;1,2,3,4,5";
+        String[] parts = data.split("[,;]");  // Tách cả dấu ',' và ';'
+
       // Nối hai chuỗi
       String result = str1.concat(", ").concat(str2); // noi bang ", "
     }
